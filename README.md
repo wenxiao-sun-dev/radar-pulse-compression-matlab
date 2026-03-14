@@ -49,3 +49,14 @@ Possible extensions:
 - compare different window functions
 - analyze sidelobe levels
 - investigate range resolution versus bandwidth
+
+## Example Output
+
+<p align="center">
+  <img src="results/transmit_signal.png" width="45%">
+  <img src="results/pulse_compression_result.png" width="45%">
+</p>
+
+<p align="center">
+  Left: transmit signal. Right: compressed radar response in the range domain.
+</p>
