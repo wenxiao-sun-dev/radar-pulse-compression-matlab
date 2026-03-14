@@ -20,6 +20,17 @@ Pulse compression is a fundamental radar signal processing technique used to imp
 
 Radar signal -> FFT -> Reference signal matching -> IFFT -> Compressed response
 
+## Example Results
+
+<p align="center">
+  <img src="results/transmit_signal.png" width="45%">
+  <img src="results/pulse_compression_result.png" width="45%">
+</p>
+
+<p align="center">
+  Left: transmit signal. Right: compressed radar response in the range domain.
+</p>
+
 ## Files
 
 - README.md
@@ -49,14 +60,3 @@ Possible extensions:
 - compare different window functions
 - analyze sidelobe levels
 - investigate range resolution versus bandwidth
-
-## Example Output
-
-<p align="center">
-  <img src="results/transmit_signal.png" width="45%">
-  <img src="results/pulse_compression_result.png" width="45%">
-</p>
-
-<p align="center">
-  Left: transmit signal. Right: compressed radar response in the range domain.
-</p>
